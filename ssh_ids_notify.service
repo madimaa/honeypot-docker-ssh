@@ -1,0 +1,10 @@
+[Unit]
+Description=Send Message To Mattermost
+
+[Service]
+User=ibcadmin
+ExecStart=/<PATH TO>/send_message.sh
+
+[Install]
+WantedBy=multi-user.target
+
