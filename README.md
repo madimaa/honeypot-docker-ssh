@@ -18,7 +18,7 @@ Both of these services start with the system. (When set up properly, as describe
 - Stop with `stop.sh`
 
 ## Mattermost notifier
-- Needed packages: jq and inotify-tools
+- Required packages: jq and inotify-tools
   - `apt install jq inotify-tools`
 - Change variables in `send_message.sh` file.
   - You can obtain your Mattermost Incoming Webhook from Integrations menu in Mattermost.
